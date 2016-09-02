@@ -1,0 +1,22 @@
+// inicializo una repo vacia de git
+git init
+
+// les digo que archivos quiero guardar(analogia a commit)
+// el punto hace que sean todos 
+git add .
+
+// guardo mis archivos (analogia ha hacer commit)
+git commit -m "nombre del commit"
+
+// todo lo de arriba esta guardado de manera local
+
+
+
+// todo lo que esta abajo tiene que ver con internet 
+// como subir una repo de github
+
+// este es un ejemplo 
+ git remote add origin https://github.com/ErikEBM/javascripting.git
+
+// hago un push a github.com
+git push -u origin master
